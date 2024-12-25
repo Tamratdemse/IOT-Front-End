@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { BASE_URL } from "../config/b_url";
 
 const WeatherForecast = ({ location }) => {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
-  const BASE_URL = "http://localhost:5000/api";
 
   useEffect(() => {
     const fetchWeatherData = async () => {

@@ -5,9 +5,8 @@ import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api";
-const imgURL = "http://localhost:5000";
-
+import { BASE_URL } from "../config/b_url";
+import { imgURL } from "../config/imgUrl";
 const Dashboard = () => {
   const [crops, setCrops] = useState([]);
 

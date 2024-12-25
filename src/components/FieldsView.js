@@ -1,6 +1,8 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
+import { imgURL } from "../config/imgUrl";
+
 const FieldsView = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -9,7 +11,6 @@ const FieldsView = () => {
   if (!field) {
     return <div>Field not found</div>;
   }
-  const imgURL = "http://localhost:5000";
 
   const handleBack = () => {
     navigate("/fields");

@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import WeatherForecast from "./WeatherForecast";
 
-const BASE_URL = "http://localhost:5000/api";
+import { BASE_URL } from "../config/b_url";
+
 const CropDetails = () => {
   const { id } = useParams();
   const [cropDetails, setCropDetails] = useState(null);

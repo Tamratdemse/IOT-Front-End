@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import FieldsView from "./FieldsView";
 
-const imgURL = "http://localhost:5000";
-const BASE_URL = "http://localhost:5000/api";
+import { BASE_URL } from "../config/b_url";
+import { imgURL } from "../config/imgUrl";
 
 const Fields = () => {
   const navigate = useNavigate();
