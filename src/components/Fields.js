@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import FieldsView from "./FieldsView";
 
 import { BASE_URL } from "../config/b_url";
 import { imgURL } from "../config/imgUrl";

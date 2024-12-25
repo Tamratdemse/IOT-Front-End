@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Sidebar from "../components/Sidebar";
-import Header from "../components/Header";
+
 import axios from "axios";
 
 import { BASE_URL } from "../config/b_url";
