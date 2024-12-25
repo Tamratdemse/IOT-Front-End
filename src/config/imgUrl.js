@@ -1,1 +1,1 @@
-export const imgURL = "http://localhost:5000";
+export const imgURL = "https://iot-back-end-k9mf.onrender.com";
